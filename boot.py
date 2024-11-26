@@ -60,10 +60,6 @@ if st.button('Enviar'):
         st.write('Por favor, insira uma pergunta.')
         st.balloons()
 
-# Botão sair
-if st.button('Sair'):
-    pyautogui.hotkey('alt', 'f4')
-
 # Botão de ajuda
 if st.button('Ajuda'):
     whatsapp = 'https://wa.me/5582981090042'
