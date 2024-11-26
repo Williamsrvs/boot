@@ -1,7 +1,6 @@
 import streamlit as st
 import openai
 import os
-import pyautogui
 
 # Título da seção lateral
 st.title('Aplicativo de Perguntas e Respostas para resolução de problemas')
