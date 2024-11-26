@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 import os
 
+
 # Título da seção lateral
 st.title('Aplicativo de Perguntas e Respostas para resolução de problemas')
 
@@ -58,6 +59,7 @@ if st.button('Enviar'):
     else:
         st.write('Por favor, insira uma pergunta.')
         st.balloons()
+
 
 # Botão de ajuda
 if st.button('Ajuda'):
@@ -117,6 +119,7 @@ st.markdown("""
            
 
 """)
+
 
 
 
